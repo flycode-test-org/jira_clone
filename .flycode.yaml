@@ -1,8 +1,10 @@
 version: "0.1"
+
 environments:
   - name: master
     branch: master
     mode: pull-request
+    
 apps:
   - name: jira_clone
     path: ""
