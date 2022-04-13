@@ -4,8 +4,8 @@ environments:
     branch: master
     mode: pull-request
 apps:
-  - name: Jira Example
+  - name: jira_clone
     path: ""
     text-resources:
-      - path: src/*.html
+      - path: "*.tsx"
         format: react-hardcoded
