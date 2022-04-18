@@ -1,6 +1,5 @@
 version: "0.1"
 
-
 environments:
   - name: master
     branch: master
@@ -9,8 +8,13 @@ environments:
     
 apps:
   - name: jira_clone
-    path: ""
+    path: client/
     text-resources:
       - path: "*.tsx"
         format: react-hardcoded
+        
+        
+        
+        
+        
         
